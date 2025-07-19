@@ -1,0 +1,134 @@
+
+.input {
+	width: 44vw;
+	margin: 0px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.image {
+	max-width: 10vw;
+	max-height: 10vh;
+	border-radius: 50px;
+}
+
+.blblb {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	justify-content: space-around;
+}   
+
+.user {
+	display: flex;
+	padding-bottom: 15px;
+}
+
+.pic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.word {
+	margin: 0px;
+	padding: 5px;
+}
+
+.LikeBtn {
+	font-size: 10px;
+	width: 30px;
+	display: flex;
+}
+
+.tweet {
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.userSide {
+  grid-row-start: 1;
+  grid-row-end: 13;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  background-color: #ffffff;
+  padding: 15px;
+  border-right: 1px #838383 solid;
+}
+
+.middle { 
+  grid-row-start: 1;
+  grid-row-end: 13;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #ffffff;
+  padding: 30px;
+
+}
+
+.trends {
+  grid-row-start: 1;
+  grid-row-end: 13;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-left: 1px #838383 solid;
+}
+
+.home {
+	border-bottom: 1px #838383 solid;
+	/* padding-bottom: 15px; */
+}
+
+.tweetsContainer {
+	margin: 20px;
+}
+
+.tweet {
+	border-bottom: 1px #838383 solid;
+	padding: 30px;
+}
+
+.send {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+}
+
+.mort {
+	padding: 5px;
+	margin: 0px;
+}
+
+.hihihih {
+	width: 15vw;
+	display: flex;
+	padding: 20px;
+	padding-top: 40px;
+	flex-direction: column;
+	justify-content:flex-start;
+}
+
+.hahahaha {
+	background-color: #ffffff;
+	border-radius: 5px;
+}
